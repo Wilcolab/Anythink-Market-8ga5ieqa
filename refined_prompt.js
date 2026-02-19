@@ -1,3 +1,8 @@
+/**
+ * Refined prompting example
+ * Adds validation, edge-case handling, and improved robustness.
+ */
+
 function toCamelCase(input) {
   if (typeof input !== "string") {
     throw new Error("Input must be a string");
@@ -13,6 +18,10 @@ function toCamelCase(input) {
     .join("");
 }
 
+/**
+ * Additional function generated using context from existing code.
+ * Converts string into dot.case format.
+ */
 function toDotCase(input) {
   if (typeof input !== "string") {
     throw new Error("Input must be a string");
