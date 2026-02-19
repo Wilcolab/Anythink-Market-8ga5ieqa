@@ -1,3 +1,9 @@
+/**
+ * One-shot prompting example
+ * Converts a string into camelCase.
+ * Example: "hello world" → "helloWorld"
+ */
+
 function toCamelCase(str) {
   return str
     .toLowerCase()
